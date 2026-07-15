@@ -21,6 +21,12 @@ avec d'éventuels nouveaux étudiants.
   version d'INF 1410 (Génie logiciel)**, prévue pour septembre 2026. Un
   alignement explicite entre les deux cours est un objectif central.
 
+- Le site doit être explicite sur le fait qu'il s'agit de la **vision
+  personnelle** de Christian Jauvin — son implémentation particulière du
+  format officiel. Chaque professeur qui encadre INF 1430 est entièrement
+  libre de ses méthodes. (Précision présente sur l'accueil, dans la FAQ et
+  dans le pied de page commun.)
+
 ## Philosophie du modèle proposé
 
 Le projet de l'étudiant est mené *comme un vrai projet logiciel*, avec le
