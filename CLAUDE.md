@@ -52,6 +52,23 @@ Les cinq piliers :
    l'application concrète des idées de génie logiciel présentées dans INF 1410.
    INF 1430 devient en quelque sorte le « laboratoire » d'INF 1410.
 
+### Position sur l'IA
+
+L'usage de l'IA générative est **encouragé comme compétence à développer**
+(cohérent avec l'esprit « outils réels de l'industrie »), à une condition :
+qu'il ne nuise pas à l'apprentissage. Règle centrale : l'étudiant doit
+comprendre, et pouvoir expliquer et défendre, tout ce qu'il intègre au
+projet. Transparence attendue (mentionner un usage notable de l'IA, p. ex.
+dans la description d'une PR) ; retour réflexif sur l'usage de l'IA bienvenu
+dans le rapport final.
+
+C'est aussi un argument important **en faveur** du modèle : un format « 4
+remises espacées » n'offre aucune visibilité sur le processus (et donc aucune
+prise sur l'usage de l'IA), tandis qu'un processus visible (commits, PRs,
+réponses aux reviews) rend la compréhension démontrable. La review de PR est
+le garde-fou naturel. Cadrage volontairement non punitif : visibilité et
+transparence, pas surveillance ni suspicion.
+
 ### Compatibilité avec le format officiel
 
 Les 4 travaux notés officiels sont conservés comme jalons d'évaluation, mais
@@ -105,8 +122,9 @@ Contenu prévu par page :
 2. **Philosophie (`philosophie.html`)** — les idées de fond : apprendre le
    génie logiciel en le pratiquant ; la rétroaction continue plutôt que la
    correction terminale ; la trace écrite (git, PRs) comme mémoire du projet ;
-   l'alignement avec INF 1410 (avec renvois explicites quand le contenu
-   d'INF 1410 sera public).
+   l'IA encouragée comme compétence, avec le processus visible comme
+   garde-fou ; l'alignement avec INF 1410 (avec renvois explicites quand le
+   contenu d'INF 1410 sera public).
 
 3. **Le modèle (`modele.html`)** — la mécanique concrète :
    - le repo GitHub : mise en place, visibilité, conventions ;
@@ -122,7 +140,8 @@ Contenu prévu par page :
 5. **FAQ (`faq.html`)** — p. ex. : « Faut-il déjà connaître git/GitHub ? »,
    « Le repo doit-il être public ou privé ? », « Quel type de projet est
    admissible ? », « À quelle fréquence dois-je pousser du code ? »,
-   « Comment se passent les rencontres Teams ? ».
+   « Ai-je le droit d'utiliser l'IA ? », « Comment se passent les rencontres
+   Teams ? ».
 
 ## Déploiement
 
