@@ -126,10 +126,10 @@ Contenu prévu par page :
 
 ## Déploiement
 
-- Repo GitHub sur le compte de l'utilisateur (nom suggéré :
-  `inf1430-teluq` ou similaire — à confirmer).
+- Repo GitHub : [cjauvin/inf1430-teluq](https://github.com/cjauvin/inf1430-teluq)
+  (public).
 - GitHub Pages servi depuis la branche `main` (racine).
-- URL : `https://<compte>.github.io/<repo>/`.
+- URL du site : <https://cjauvin.github.io/inf1430-teluq/>.
 
 ## Questions ouvertes / à préciser avec l'utilisateur
 
@@ -140,7 +140,8 @@ Contenu prévu par page :
       noté explicitement, ou seulement les 4 livrables ?
 - [ ] Cadence proposée : itérations de 2 semaines ? rencontres Teams à
       fréquence fixe ou sur demande ?
-- [ ] Nom définitif du repo / URL du site.
+- [x] Nom définitif du repo / URL du site : `cjauvin/inf1430-teluq`,
+      <https://cjauvin.github.io/inf1430-teluq/>.
 
 ## Étapes de réalisation
 
@@ -148,5 +149,5 @@ Contenu prévu par page :
 2. ✅ `git init` + premier commit
 3. ✅ Squelette HTML/CSS (les 5 pages + navigation + style, premier jet de contenu)
 4. Rédaction du contenu page par page (itérativement, avec l'utilisateur)
-5. Création du repo GitHub + activation de GitHub Pages
+5. ✅ Création du repo GitHub + activation de GitHub Pages
 6. Révision finale et publication
