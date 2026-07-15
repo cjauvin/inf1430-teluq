@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Déroulement — INF 1430, version personnalisée</title>
+  <meta name="description" content="Le semestre pas à pas, et la correspondance entre les quatre travaux notés officiels et leur réinterprétation dans le modèle.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">INF 1430 <span>· version personnalisée</span></a>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="philosophie.html">Philosophie</a>
+      <a href="modele.html">Le modèle</a>
+      <a href="deroulement.html" aria-current="page">Déroulement</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <h1>Le déroulement du semestre</h1>
+
+  <p class="lead">
+    Le cours conserve les quatre travaux notés du format officiel, avec leurs
+    pondérations. Le modèle les réinterprète comme les jalons d'un processus
+    continu, visible dans le repo du début à la fin.
+  </p>
+
+  <h2>Les quatre travaux notés (format officiel)</h2>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Titre</th>
+          <th>Pondération</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Plan de projet documenté</td><td>10 %</td></tr>
+        <tr><td>2</td><td>Rapport mi-parcours</td><td>20 %</td></tr>
+        <tr><td>3</td><td>Produit final fonctionnel</td><td>30 %</td></tr>
+        <tr><td>4</td><td>Rapport du projet présenté</td><td>40 %</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Leur réinterprétation dans le modèle</h2>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Travail officiel</th>
+          <th>Dans le modèle proposé</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1. Plan de projet (10 %)</td>
+          <td>La mise en place du projet : repo créé, board GitHub Projects
+          configuré, backlog initial d'issues, plan de projet documenté dans
+          le repo (README ou document dédié). Le plan n'est pas un document
+          théorique : c'est l'état initial, réel et fonctionnel, de
+          l'infrastructure du projet.</td>
+        </tr>
+        <tr>
+          <td>2. Rapport mi-parcours (20 %)</td>
+          <td>Un milestone à mi-parcours : état du board, PRs mergées jusque-là,
+          et rapport intermédiaire versionné dans le repo. Le rapport
+          s'appuie sur la trace accumulée (commits, PRs, issues) — il
+          synthétise un avancement déjà constatable.</td>
+        </tr>
+        <tr>
+          <td>3. Produit final (30 %)</td>
+          <td>Le repo lui-même : le produit fonctionnel, mais aussi son
+          historique de développement, la qualité du code et celle des PRs
+          qui y ont mené. Le « dépôt » du produit final est un tag/release
+          dans le repo, pas un fichier zip envoyé par courriel.</td>
+        </tr>
+        <tr>
+          <td>4. Rapport final (40 %)</td>
+          <td>Le rapport final, rédigé (et idéalement versionné) dans le repo,
+          incluant un retour réflexif sur le processus : ce qui a bien
+          fonctionné, ce qui a été ajusté en cours de route, ce que la
+          méthode a apporté au projet.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Le semestre, par phases</h2>
+
+  <p>
+    À titre indicatif, pour un semestre de 15 semaines (le découpage exact
+    est convenu avec chaque étudiant selon son projet) :
+  </p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Phase</th>
+          <th>Semaines</th>
+          <th>Contenu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Démarrage</strong></td>
+          <td>1 – 2</td>
+          <td>Définition du projet avec le professeur ; création du repo et du
+          board ; backlog initial ; rédaction du plan de projet.
+          <em>→ Travail 1.</em></td>
+        </tr>
+        <tr>
+          <td><strong>Itérations, première moitié</strong></td>
+          <td>3 – 7</td>
+          <td>Développement par itérations : issues → branches → PRs → reviews
+          → merges. Ajustements du backlog au fil des apprentissages.</td>
+        </tr>
+        <tr>
+          <td><strong>Mi-parcours</strong></td>
+          <td>8</td>
+          <td>Milestone de mi-parcours : bilan de l'avancement, rapport
+          intermédiaire, rencontre Teams de fond.
+          <em>→ Travail 2.</em></td>
+        </tr>
+        <tr>
+          <td><strong>Itérations, seconde moitié</strong></td>
+          <td>9 – 13</td>
+          <td>Poursuite du développement, avec un accent croissant sur la
+          complétude, la robustesse et la documentation du produit.</td>
+        </tr>
+        <tr>
+          <td><strong>Finalisation</strong></td>
+          <td>14 – 15</td>
+          <td>Gel des fonctionnalités ; release finale du produit
+          (<em>→ Travail 3</em>) ; rédaction du rapport final avec retour
+          réflexif (<em>→ Travail 4</em>).</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <blockquote>
+    <p>La place exacte du processus (qualité des PRs, activité sur le board,
+    communication) dans la note de chaque travail est un point en cours de
+    précision ; l'esprit du modèle est que un processus sain rend presque
+    mécaniquement les livrables meilleurs.</p>
+  </blockquote>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Proposition personnalisée de Christian Jauvin pour l'encadrement
+    d'INF 1430 (TELUQ). Ce site est un document de travail et ne remplace pas
+    la description officielle du cours.</p>
+  </div>
+</footer>
+
+</body>
+</html>

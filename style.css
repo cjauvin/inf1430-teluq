@@ -1,0 +1,246 @@
+/* INF 1430 — version personnalisée
+   Feuille de style unique. Design sobre, lisible, responsive,
+   thèmes clair/sombre via prefers-color-scheme. */
+
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f6f7f9;
+  --text: #1c1e21;
+  --text-muted: #5c6370;
+  --accent: #1a5fb4;
+  --accent-hover: #14487f;
+  --border: #d8dce2;
+  --table-header-bg: #eef1f5;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181d;
+    --bg-alt: #1f2229;
+    --text: #e4e6ea;
+    --text-muted: #9aa1ad;
+    --accent: #6ea8e8;
+    --accent-hover: #9cc3f0;
+    --border: #343943;
+    --table-header-bg: #262a33;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.container {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ---------- En-tête et navigation ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-alt);
+}
+
+.site-header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.brand span {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin-left: auto;
+}
+
+.site-header nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  padding: 0.15rem 0;
+}
+
+.site-header nav a:hover {
+  color: var(--accent);
+}
+
+.site-header nav a[aria-current="page"] {
+  color: var(--text);
+  font-weight: 600;
+  border-bottom: 2px solid var(--accent);
+}
+
+/* ---------- Contenu ---------- */
+
+main {
+  padding: 2.5rem 1.25rem 3rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin: 2.2rem 0 0.6rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 1.6rem 0 0.4rem;
+}
+
+p {
+  margin: 0.7rem 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+li {
+  margin: 0.35rem 0;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: var(--bg-alt);
+  color: var(--text-muted);
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+/* ---------- Tableaux ---------- */
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--table-header-bg);
+}
+
+/* ---------- Cartes (piliers en page d'accueil) ---------- */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards li {
+  margin: 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-alt);
+}
+
+.cards h3 {
+  margin: 0 0 0.4rem;
+}
+
+.cards p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* ---------- FAQ ---------- */
+
+details {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  margin: 0.6rem 0;
+  background: var(--bg-alt);
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ---------- Pied de page ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.site-footer .container {
+  padding-top: 1.2rem;
+  padding-bottom: 1.6rem;
+}

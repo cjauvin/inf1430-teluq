@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le modèle — INF 1430, version personnalisée</title>
+  <meta name="description" content="Le fonctionnement concret du modèle : le repo GitHub, le flux de travail par pull requests, GitHub Projects, et la communication.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">INF 1430 <span>· version personnalisée</span></a>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="philosophie.html">Philosophie</a>
+      <a href="modele.html" aria-current="page">Le modèle</a>
+      <a href="deroulement.html">Déroulement</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <h1>Le modèle, concrètement</h1>
+
+  <p class="lead">
+    Quatre mécanismes, tous appuyés sur GitHub : le dépôt, les pull requests,
+    le board de gestion, et la communication.
+  </p>
+
+  <h2>Le dépôt GitHub</h2>
+
+  <p>
+    Dès le début du cours, l'étudiant crée un dépôt GitHub qui devient la
+    colonne vertébrale du projet : tout y vit — le code, bien sûr, mais aussi
+    la documentation, les rapports, et les décisions (via les issues et les
+    PRs). Le professeur y a un accès permanent en tant que collaborateur.
+  </p>
+
+  <ul>
+    <li>Le dépôt peut être privé (avec le professeur comme collaborateur) ou
+    public, au choix de l'étudiant.</li>
+    <li>L'historique de commits doit refléter le travail réel : des commits
+    réguliers, avec des messages descriptifs, plutôt qu'un gros dépôt de code
+    la veille d'une remise.</li>
+    <li>Le <code>README</code> du dépôt sert de porte d'entrée : description
+    du projet, instructions d'installation et d'exécution, état d'avancement.</li>
+  </ul>
+
+  <h2>Le flux de travail par pull requests</h2>
+
+  <p>
+    Le travail avance par unités cohérentes — une fonctionnalité, une
+    correction, un morceau de documentation — chacune développée sur une
+    branche et proposée par une <em>pull request</em> :
+  </p>
+
+  <ol>
+    <li><strong>Brancher</strong> : l'étudiant crée une branche pour la tâche
+    en cours (idéalement liée à une issue du board).</li>
+    <li><strong>Ouvrir une PR</strong> : quand le travail est prêt (ou assez
+    avancé pour mériter un regard), l'étudiant ouvre une pull request qui
+    décrit le changement.</li>
+    <li><strong>Review du professeur</strong> : commentaires, questions,
+    suggestions, demandes de changement — directement sur le code, ligne par
+    ligne au besoin.</li>
+    <li><strong>Itérer</strong> : l'étudiant répond, corrige, pousse de
+    nouveaux commits sur la même PR.</li>
+    <li><strong>Merger</strong> : une fois la PR approuvée, elle est mergée
+    dans <code>main</code>.</li>
+  </ol>
+
+  <p>
+    C'est le cœur pédagogique du modèle : chaque PR est une occasion de
+    rétroaction concrète et située. La qualité attendue des PRs (taille
+    raisonnable, description claire, réponse aux commentaires) fait partie
+    des attentes du cours.
+  </p>
+
+  <h2>GitHub Projects : la gestion du projet</h2>
+
+  <p>
+    La planification et le suivi passent par un board GitHub Projects attaché
+    au dépôt, selon une méthode inspirée de scrum et adaptée à un projet
+    individuel :
+  </p>
+
+  <ul>
+    <li><strong>Backlog</strong> : les tâches du projet, exprimées en issues,
+    priorisées et raffinées au fil du semestre.</li>
+    <li><strong>Itérations</strong> : le semestre est découpé en itérations
+    courtes (cadence à convenir, p. ex. deux semaines) ; au début de chacune,
+    l'étudiant choisit les issues qu'il compte réaliser.</li>
+    <li><strong>Milestones</strong> : les quatre travaux notés correspondent à
+    des milestones du projet, ce qui relie la gestion quotidienne aux jalons
+    officiels du cours.</li>
+    <li><strong>Board</strong> : les colonnes (p. ex. À faire / En cours /
+    Terminé) donnent en un coup d'œil l'état du projet.</li>
+  </ul>
+
+  <h2>La communication</h2>
+
+  <p>Deux canaux complémentaires, avec une règle simple :</p>
+
+  <h3>Asynchrone d'abord (GitHub)</h3>
+
+  <p>
+    La voie par défaut : commentaires d'issues et de PRs, discussions du
+    dépôt. Ce mode laisse une trace consultable, permet de réfléchir avant de
+    répondre, et n'exige pas de coordonner des horaires. C'est aussi le mode
+    de travail normal des équipes logicielles distribuées.
+  </p>
+
+  <h3>Synchrone quand c'est utile (Teams)</h3>
+
+  <p>
+    Des rencontres Teams en temps réel, planifiées au besoin : pour débloquer
+    une situation qui piétine à l'écrit, discuter d'une orientation
+    importante, ou simplement faire le point. La fréquence exacte (fixe ou
+    sur demande) est convenue en début de cours.
+  </p>
+
+  <p>
+    Dans les deux cas, l'attente centrale est une communication
+    <strong>active</strong> : le professeur s'engage à une bonne réactivité
+    sur les PRs et les questions ; en retour, l'étudiant maintient un rythme
+    de travail visible et signale tôt les difficultés — c'est précisément ce
+    que le modèle rend possible.
+  </p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Proposition personnalisée de Christian Jauvin pour l'encadrement
+    d'INF 1430 (TELUQ). Ce site est un document de travail et ne remplace pas
+    la description officielle du cours.</p>
+  </div>
+</footer>
+
+</body>
+</html>
