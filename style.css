@@ -64,16 +64,27 @@ body {
 }
 
 .brand {
+  margin: 0;
   font-weight: 700;
   font-size: 1.1rem;
+}
+
+.brand > a {
   text-decoration: none;
   color: var(--text);
-  white-space: nowrap;
 }
 
 .brand span {
   font-weight: 400;
   color: var(--text-muted);
+}
+
+.brand span a {
+  color: inherit;
+}
+
+.brand span a:hover {
+  color: var(--accent);
 }
 
 .site-header nav {
