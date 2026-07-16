@@ -7,6 +7,11 @@ avec d'éventuels nouveaux étudiants.
 
 ## Contexte
 
+- INF 1430 vaut **6 crédits — l'équivalent de deux cours** : durée de
+  30 semaines, charge de travail correspondante (~270 h selon la norme de
+  45 h/crédit, soit ~9 h/semaine). Le site le mentionne explicitement
+  (déroulement, FAQ).
+
 - INF 1430 est un cours de projet au format officiel assez libre, évalué par
   4 travaux écrits remis à intervalles réguliers :
 
@@ -139,9 +144,10 @@ Contenu prévu par page :
    - la communication : Teams (synchrone, au besoin) vs GitHub (asynchrone,
      par défaut) ; attentes de réactivité de part et d'autre.
 
-4. **Déroulement (`deroulement.html`)** — le semestre semaine par semaine (ou
-   par phases), et le tableau de correspondance entre les 4 travaux officiels
-   et leurs réinterprétations (voir plus haut).
+4. **Déroulement (`deroulement.html`)** — les 30 semaines du cours par
+   phases (avec mention de la charge de travail : 6 crédits = deux cours),
+   et le tableau de correspondance entre les 4 travaux officiels et leurs
+   réinterprétations (voir plus haut).
 
 5. **FAQ (`faq.html`)** — p. ex. : « Faut-il déjà connaître git/GitHub ? »,
    « Le repo doit-il être public ou privé ? », « Quel type de projet est
